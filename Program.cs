@@ -84,7 +84,7 @@ namespace PigDiceVersion2
             else
             {
                 turnScore += rolledNumber;
-                Console.WriteLine("Your turn score is " + turnScore + " and your total score is " + totalScore + ".");
+                Console.WriteLine("Your turn score is " + turnScore + " and your total score is " + (totalScore+turnScore)+ ".");
                 HoldMessage(ref turnScore, ref totalScore);
             }
         }
